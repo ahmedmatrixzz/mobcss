@@ -1,0 +1,9 @@
+/* تغيير لون خلفية الرأس */
+ion-header::part(toolbar) {
+  background-color: #007bff; /* أزرق */
+}
+
+/* تغيير لون النص داخل الرأس */
+ion-title {
+  color: white;
+}
