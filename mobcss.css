@@ -1,9 +1,18 @@
-/* تغيير لون خلفية الرأس */
+/* تغيير لون خلفية الرأس إلى لون أكثر جاذبية */
 ion-header::part(toolbar) {
-  background-color: #007bff; /* أزرق */
+  background-color: #4CAF50; /* أخضر متوسط - يعتبر لوناً مريحاً ومشجعاً للتعلم */
 }
 
-/* تغيير لون النص داخل الرأس */
+/* تغيير لون النص داخل الرأس إلى اللون الأبيض وتغيير الخط إلى Cairo */
 ion-title {
   color: white;
+  font-family: 'Cairo', sans-serif;
+}
+
+/* تأكد من إضافة خط Cairo إلى CSS الخاص بك أو HTML */
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+/* تطبيق خط Cairo على جميع النصوص داخل التطبيق لتوحيد المظهر */
+body {
+  font-family: 'Cairo', sans-serif;
 }
